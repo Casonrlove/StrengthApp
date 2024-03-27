@@ -14,6 +14,7 @@
 		A4F0B1D22BADF53E00D5C456 /* Strength_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0B1D12BADF53E00D5C456 /* Strength_AppTests.swift */; };
 		A4F0B1DC2BADF53E00D5C456 /* Strength_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0B1DB2BADF53E00D5C456 /* Strength_AppUITests.swift */; };
 		A4F0B1DE2BADF53E00D5C456 /* Strength_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0B1DD2BADF53E00D5C456 /* Strength_AppUITestsLaunchTests.swift */; };
+		CD6E55382BB3DF2600081D90 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6E55372BB3DF2600081D90 /* models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A4F0B1D72BADF53E00D5C456 /* Strength AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strength AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F0B1DB2BADF53E00D5C456 /* Strength_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strength_AppUITests.swift; sourceTree = "<group>"; };
 		A4F0B1DD2BADF53E00D5C456 /* Strength_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strength_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD6E55372BB3DF2600081D90 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				A4F0B1C22BADF53D00D5C456 /* ContentView.swift */,
 				A4F0B1C42BADF53E00D5C456 /* Assets.xcassets */,
 				A4F0B1C62BADF53E00D5C456 /* Preview Content */,
+				CD6E55372BB3DF2600081D90 /* models.swift */,
 			);
 			path = "Strength App";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4F0B1C32BADF53D00D5C456 /* ContentView.swift in Sources */,
+				CD6E55382BB3DF2600081D90 /* models.swift in Sources */,
 				A4F0B1C12BADF53D00D5C456 /* Strength_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
