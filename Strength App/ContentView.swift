@@ -3,12 +3,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var templateWorkoutsViewModel = TemplateWorkoutsViewModel()
+
     var body: some View {
         NavigationView {
             TabView {
-                Text("Track those hoes")
-                    .font(.title)
-                    .padding()
+                HomeView(templateWorkoutsViewModel: templateWorkoutsViewModel)
                     .tabItem {
                         Image(systemName: "house")
                         Text("Home")
@@ -22,17 +22,14 @@ struct ContentView: View {
                     }
                     .tag(1)
                 
-                Text("Settings Page")
-                    .font(.title)
-                    .padding()
-                    .tabItem {
-                        Image(systemName: "gear")
-                        Text("Settings")
-                    }
-                    .tag(2)
+                SettingsView().tabItem{
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
+                .tag(2)
             }
-            .navigationBarTitle("Strength App!")
-            .navigationBarTitleDisplayMode(.large)
+            .navigationBarTitle("Saiyan Strength")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
