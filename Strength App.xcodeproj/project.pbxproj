@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4379CCF2BB4F1F400C00215 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4379CCE2BB4F1F400C00215 /* WorkoutView.swift */; };
 		A4F0B1C12BADF53D00D5C456 /* Strength_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0B1C02BADF53D00D5C456 /* Strength_AppApp.swift */; };
 		A4F0B1C32BADF53D00D5C456 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0B1C22BADF53D00D5C456 /* ContentView.swift */; };
 		A4F0B1C52BADF53E00D5C456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F0B1C42BADF53E00D5C456 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4379CCE2BB4F1F400C00215 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 		A4F0B1BD2BADF53D00D5C456 /* Strength App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strength App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F0B1C02BADF53D00D5C456 /* Strength_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strength_AppApp.swift; sourceTree = "<group>"; };
 		A4F0B1C22BADF53D00D5C456 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				A4F0B1C02BADF53D00D5C456 /* Strength_AppApp.swift */,
 				A4F0B1C22BADF53D00D5C456 /* ContentView.swift */,
+				A4379CCE2BB4F1F400C00215 /* WorkoutView.swift */,
 				A4F0B1C42BADF53E00D5C456 /* Assets.xcassets */,
 				A4F0B1C62BADF53E00D5C456 /* Preview Content */,
 				CD6E55372BB3DF2600081D90 /* models.swift */,
@@ -262,6 +265,7 @@
 			files = (
 				A4F0B1C32BADF53D00D5C456 /* ContentView.swift in Sources */,
 				CD6E55382BB3DF2600081D90 /* models.swift in Sources */,
+				A4379CCF2BB4F1F400C00215 /* WorkoutView.swift in Sources */,
 				A4F0B1C12BADF53D00D5C456 /* Strength_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
