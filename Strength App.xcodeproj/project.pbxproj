@@ -15,6 +15,9 @@
 		A4F0B1D22BADF53E00D5C456 /* Strength_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0B1D12BADF53E00D5C456 /* Strength_AppTests.swift */; };
 		A4F0B1DC2BADF53E00D5C456 /* Strength_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0B1DB2BADF53E00D5C456 /* Strength_AppUITests.swift */; };
 		A4F0B1DE2BADF53E00D5C456 /* Strength_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0B1DD2BADF53E00D5C456 /* Strength_AppUITestsLaunchTests.swift */; };
+		CD4593E32BB5F5AE00BD50DF /* TemplateWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4593E22BB5F5AE00BD50DF /* TemplateWorkout.swift */; };
+		CD4593E52BB5F68700BD50DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4593E42BB5F68700BD50DF /* HomeView.swift */; };
+		CD4593E72BB5F76B00BD50DF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4593E62BB5F76B00BD50DF /* SettingsView.swift */; };
 		CD6E55382BB3DF2600081D90 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6E55372BB3DF2600081D90 /* models.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,9 @@
 		A4F0B1D72BADF53E00D5C456 /* Strength AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strength AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F0B1DB2BADF53E00D5C456 /* Strength_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strength_AppUITests.swift; sourceTree = "<group>"; };
 		A4F0B1DD2BADF53E00D5C456 /* Strength_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strength_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD4593E22BB5F5AE00BD50DF /* TemplateWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateWorkout.swift; sourceTree = "<group>"; };
+		CD4593E42BB5F68700BD50DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CD4593E62BB5F76B00BD50DF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CD6E55372BB3DF2600081D90 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,10 +106,13 @@
 			children = (
 				A4F0B1C02BADF53D00D5C456 /* Strength_AppApp.swift */,
 				A4F0B1C22BADF53D00D5C456 /* ContentView.swift */,
+				CD4593E22BB5F5AE00BD50DF /* TemplateWorkout.swift */,
+				CD4593E62BB5F76B00BD50DF /* SettingsView.swift */,
+				CD4593E42BB5F68700BD50DF /* HomeView.swift */,
 				A4379CCE2BB4F1F400C00215 /* WorkoutView.swift */,
+				CD6E55372BB3DF2600081D90 /* models.swift */,
 				A4F0B1C42BADF53E00D5C456 /* Assets.xcassets */,
 				A4F0B1C62BADF53E00D5C456 /* Preview Content */,
-				CD6E55372BB3DF2600081D90 /* models.swift */,
 			);
 			path = "Strength App";
 			sourceTree = "<group>";
@@ -263,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4593E72BB5F76B00BD50DF /* SettingsView.swift in Sources */,
 				A4F0B1C32BADF53D00D5C456 /* ContentView.swift in Sources */,
 				CD6E55382BB3DF2600081D90 /* models.swift in Sources */,
+				CD4593E32BB5F5AE00BD50DF /* TemplateWorkout.swift in Sources */,
+				CD4593E52BB5F68700BD50DF /* HomeView.swift in Sources */,
 				A4379CCF2BB4F1F400C00215 /* WorkoutView.swift in Sources */,
 				A4F0B1C12BADF53D00D5C456 /* Strength_AppApp.swift in Sources */,
 			);
