@@ -4,6 +4,8 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var templateWorkoutsViewModel = TemplateWorkoutsViewModel()
+    //put state TemplateWorkoutArray here
+    // can be adjusted in other views by passing it in and giving it binding values in other views, that is if we want them to be modified.
 
     var body: some View {
         NavigationView {

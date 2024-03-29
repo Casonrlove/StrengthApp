@@ -55,3 +55,7 @@ struct HomeView: View {
         newTemplateName = ""
     }
 }
+
+//#Preview {
+//    HomeView()
+//}

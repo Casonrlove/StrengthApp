@@ -7,6 +7,9 @@
 
 import Foundation
 
+//video said struct should have the workouts and we could make a class for the template of workouts?
+
+//Hasher means each workout has an INT value behind the scenes
 struct Workout: Hashable {
     var exercise: String
     var weight: Double
