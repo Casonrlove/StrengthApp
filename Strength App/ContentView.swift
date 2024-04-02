@@ -1,16 +1,22 @@
+//
+//  ContentView.swift
+//  Strength App
+//
+//  Created by Jackson Benge on 3/29/24.
+//
 
-
+import Foundation
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var templateWorkoutsViewModel = TemplateWorkoutsViewModel()
+    @State var allWorkouts : [Workout] = []
     //put state TemplateWorkoutArray here
     // can be adjusted in other views by passing it in and giving it binding values in other views, that is if we want them to be modified.
 
     var body: some View {
         NavigationView {
             TabView {
-                HomeView(templateWorkoutsViewModel: templateWorkoutsViewModel)
+                HomeView(allWorkoutsHome: $allWorkouts)
                     .tabItem {
                         Image(systemName: "house")
                         Text("Home")

@@ -4,7 +4,6 @@ struct WorkoutView: View {
     @State private var templateName = ""
     @State private var newExercise = ""
     @State private var exercises: [String] = []
-    @ObservedObject var templateWorkoutsViewModel = TemplateWorkoutsViewModel()
 
     var body: some View {
         VStack {
@@ -25,13 +24,6 @@ struct WorkoutView: View {
                 Button(action: addExercise) {
                     Text("Add Exercise")
                 }
-            }
-            .padding()
-
-            Button("Save Template") {
-                templateWorkoutsViewModel.addTemplateWorkout(name: templateName, exercises: exercises)
-                templateName = ""
-                exercises.removeAll()
             }
             .padding()
         }

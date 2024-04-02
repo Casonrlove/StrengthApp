@@ -18,8 +18,9 @@ struct Exercise: Hashable{
 
 //thinking we can call the workout class to store workouts?
 // question would be how to list them... wonder if another array could just be made of the names of the list? idk functionality for the future?
-class Workout {
-    static let workout: [Exercise] = []
-}
 
+class Workout {
+    var WorkoutName : String = ""
+    var Exercises : [Exercise] = []
+}
 
